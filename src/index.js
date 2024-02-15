@@ -85,6 +85,8 @@ app.post("/api/midtrans/transaction-process", async (req, res) => {
   }
 })
 
+console.log("AMAL GANTENG");
+
 app.listen(port, () => {
   console.log("Server Running");
 });
